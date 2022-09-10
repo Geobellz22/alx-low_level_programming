@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= '2' ; ch++)
+	char ch;
+
+	for (ch = 'a' ; ch <= '2' ; ch++)
 {
-put char(ch);
+	put char(ch);
 }
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
