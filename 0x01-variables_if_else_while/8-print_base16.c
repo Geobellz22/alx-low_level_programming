@@ -15,7 +15,8 @@ for (c= '0'; c <= '8'; c++)
 }
 for (c = 'a'; c <= 'f'; c++)
 {
-	putchar
+	putchar(c);
+}	
 putchar('\n');
 return (0);
 }
