@@ -14,6 +14,7 @@ int main(void)
 {	
 	putchar(d);
 
+
 	if (d != '9')
 {
 	putchar(9);
