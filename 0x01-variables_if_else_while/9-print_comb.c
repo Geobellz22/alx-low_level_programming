@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int c;
+	int d;
 	
-	for (c = 48; c <= 57; c++)
+	for (d = '0'; d <='9'; d++)
 {	
 	putchar(c);
-	if (c != 57)
+	if (d != '9')
 {
-	putchar(c);
-	putchar(' ,');
-	putchar(' ,');
+	putchar(9);
+	putchar(' ');
+	putchar(',');
 }
 }
 putchar('\n');
