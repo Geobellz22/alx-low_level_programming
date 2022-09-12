@@ -33,7 +33,7 @@ else if (1 < 6)
 }
 if (L == 0)
 {
-	printf("%s %d is %d and is 0\n", n, L);
+	printf("L of %d is %d and is 0\n", n, L);
 }
 return (0);
 }
