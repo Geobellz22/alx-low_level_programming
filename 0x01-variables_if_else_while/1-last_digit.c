@@ -29,7 +29,7 @@ else if (1 == 0)
 }
 else if (1 < 6)
 {
-	printf("%s %d is %d and is less than 6\n", str, n, L);
+	printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
 }
 if (L == 0)
 {
