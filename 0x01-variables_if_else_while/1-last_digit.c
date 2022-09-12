@@ -21,7 +21,7 @@ char str[] = "Last digit of";
 
 if (L > 5)
 {
-	printf("L of %d is %d and is greater than 5\n", str, n, L);
+	printf("%s %d is %d and is greater than 5\n", str, n, L);
 }
 else if (L < 6 && L != 0)
 {
