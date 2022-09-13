@@ -10,7 +10,6 @@ int main(void)
 	int a;
 	int b;
 	int c;
-	
 
 	for (a = 48; a < 57; a++)
 	{
