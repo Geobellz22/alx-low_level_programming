@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_times_table - prints the time table of input,
+ * print_times_table - prints the times table of the input,
  * starting with 0.
  * @n: The value of the time table to be printed.
  */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int num, mult, prod;
 
