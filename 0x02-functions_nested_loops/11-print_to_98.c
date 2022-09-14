@@ -14,7 +14,7 @@ void print_to_98(int n)
 	}
 
 
-	else 
+	else
 	{
 		while (n < 98)
 			printf("%d, ", n++);
