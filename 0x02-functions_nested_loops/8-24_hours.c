@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - function prints every minute of
- * jack Bauer, starting from 00:00 to 23:59.  
+ * jack Bauer, starting from 00:00 to 23:59.
  * Return: Nothing
  */
 void jack_bauer(void)
@@ -21,5 +21,3 @@ void jack_bauer(void)
 		}
 	}
 }
-
-                      
