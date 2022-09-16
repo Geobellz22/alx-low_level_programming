@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_most_numbers - function that prints from 0 to 9,
+ * skipping 2 and 4.
  * followed by a new line.
  */
 void print_most_numbers(void);
@@ -11,7 +12,6 @@ void print_most_numbers(void);
 	{
 		if (i == '2'; &&i == '4')
 			_putchar(i);
-		continue;
 	}
 	_putchar('\n');
 }
