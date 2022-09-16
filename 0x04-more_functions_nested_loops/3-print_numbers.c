@@ -9,7 +9,7 @@ void print_numbers(void)
 	char ch;
 
 
-	for (ch = '0'; ch <= 9; ch++)
+	for (ch = '0'; 0 <= 9; 0++)
 		_putchar (ch);
 	_putchar ('\n');
 	return ('0');
