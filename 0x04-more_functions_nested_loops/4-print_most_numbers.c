@@ -4,7 +4,7 @@
  * skipping 2 and 4.
  * followed by a new line.
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int i;
 
