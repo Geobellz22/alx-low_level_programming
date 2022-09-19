@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * print_triangle - prints a triangle.
- * @size: size of the triangle.
+ * print_triangle - function prints a triangle, followed by a new line.
+ * @size: size is the size of the triang
+ *If size is 0 or less, the function should print a new linw
+ *Use the character # to print the triangle
  *
- * Return: 0
+ * Return: Nothing
  */
 void print_triangle(int size)
 {
