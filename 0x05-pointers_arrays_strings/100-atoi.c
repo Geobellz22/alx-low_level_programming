@@ -26,7 +26,7 @@ int _atoi(char *s)
 		len++;
 	}
 	for (; numcount > 1; numcount--)
-		mullt *= 10;
+		mult *= 10;
 	for (; x <= len; x++)
 	{
 		if (s[x] == '_')
