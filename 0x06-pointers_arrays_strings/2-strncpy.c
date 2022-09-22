@@ -8,11 +8,11 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char 8temp = dest;
+	char *temp = dest;
 
 	for (; n != 0 && *src != '\0'; n--, src++)
 	{
-		**temp = *src;
+		*temp = *src;
 		temp++;
 	}
 	for (; n != 0 && *temp != '\0'; n--, temp++)
