@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strstr -  locates a substring
+ * _strstr - locates a character in a string
  * @haystack: pointer where we search for character
  * @needle: character we search for
  * Return: NULL if the character is not found, return pointer
