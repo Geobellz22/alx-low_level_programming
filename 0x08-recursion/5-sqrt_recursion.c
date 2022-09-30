@@ -16,7 +16,7 @@ int square(int n, int val)
 /**
  * _sqrt_recursion - find square root of n
  * @n: number to find square root of
- * Retuurn: square root of n
+ * Return: square root of n
  */
 int _sqrt_recursion(int n)
 {
