@@ -2,7 +2,7 @@
 /**
  * factorial - factorial of a given numbber
  * @n:int
- * return:int
+ * Return:int
  */
 int factorial(int n)
 {
@@ -18,7 +18,7 @@ int factorial(int n)
 	}
 	else
 	{
-		i = n *factorial(n - 1);
+		i = n * factorial(n - 1);
 	}
 	return (i);
 }
