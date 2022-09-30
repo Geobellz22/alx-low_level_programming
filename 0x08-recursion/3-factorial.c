@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 /**
  * factorial - factorial of a given numbber
  * @n:int
