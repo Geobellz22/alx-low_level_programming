@@ -10,7 +10,7 @@ int escwild(char *c1, char *wild)
 {
 	if (*c1 == '\0')
 		return (cmp(c1, wild));
-	return (cmp(c1, wild) || escwild(++c1, wild);
+	return (cmp(c1, wild) || escwild(++c1, wild));
 }
 /**
  * cmp - compare string 1 and string 2 using wild card
@@ -27,7 +27,7 @@ int cmp(char *c1, char *c2)
 		else if (*c1 == '\0')
 		return (1);
 		else
-		return (cmp(++1, ++c2));
+		return (cmp(++c1, ++c2));
 	}
 	return (0);
 }
