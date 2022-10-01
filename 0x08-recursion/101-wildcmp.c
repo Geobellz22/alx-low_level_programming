@@ -16,7 +16,7 @@ int escwild(char *c1, char *wild)
  * cmp - compare string 1 and string 2 using wild card
  * @c1: string 1
  * @c2: string 2
- * REturn: return 0 if no match return 1 if match
+ * Return: return 0 if no match return 1 if match
  */
 int cmp(char *c1, char *c2)
 {
