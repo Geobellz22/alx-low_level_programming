@@ -11,7 +11,7 @@ int help(int n, int x)
 		return (1);
 	else if (n % x != 0)
 		return (help(n, ++x));
-		return (check(a + 1, b));
+		return (0);
 }
 /**
  * is_prime_number - states if number is prime
@@ -20,7 +20,7 @@ int help(int n, int x)
  */
 int is_prime_number(int n)
 {
-		if (n == 3)
-		return (1);
-		return (check(n, 2));
+		if (n == 1 || n == -1 || n == 0)
+		return (0);
+		return (help(n, 2));
 }
