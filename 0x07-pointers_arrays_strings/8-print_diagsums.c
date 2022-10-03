@@ -14,7 +14,7 @@ void print_diagsums(int *a, int size)
 	{
 		for (j = 0; j < size; j++)
 		{
-			printf("%d",&a[i,j]);
+			printf("%3",&a[i],[j]);
 		}
 	}
 	for (i = 0; i < size; i++)
@@ -22,9 +22,9 @@ void print_diagsums(int *a, int size)
 		SR = SC = 0;
 		for (j = 0; j < size; j++)
 
-			SR = SR + a[i,j];
-			SC = SC + a[j,i];
-			printf("SR = %i, SC = %j, SR, Sc");
+			SR = SR + a[i],[j]
+			SC = SC + a[j],[i];
+			printf("%i, %i/n", SR, SC);
 	}
 }
 

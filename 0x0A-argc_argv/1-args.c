@@ -1,9 +1,9 @@
 #include<stdlib.h>
-#include<main.h>
+#include<stdio.h>
 /**
  * main - prints a number of arguments passed into it
- * @argc - number of arguments passed to the program
- * @argv - lists ofrguments passed to the program
+ * @argc: Number of arguments passed to the program
+ * @argv: Lists of arguments passed to the program
  * Return: Always 0
  */
 int main(int argc, char **argv)
