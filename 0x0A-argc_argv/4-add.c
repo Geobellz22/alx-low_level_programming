@@ -18,13 +18,13 @@ int main(int argc, char **argv)
 		{
 			for (j = 0; argv[i][j]; j++)
 			{
-				if (argv[i][j] < '0' || arg[i][j] > '9')
+				if (argv[i][j] < '0' || argv[i][j] > '9')
 				{
 					printf("Error\n");
 					return (1);
 				}
 			}
-			sum += (atoi(argv[i]);
+			sum += atoi(argv[i]);
 			}
 			printf("%d\n", sum);
 		
