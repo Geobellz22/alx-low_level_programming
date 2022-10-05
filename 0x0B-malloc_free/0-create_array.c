@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * create_array - creates an array of chars, 
+ * create_array - function creates an array of chars, 
  * initializing with specific chars
  * @size: array size
  * @c: character used to initialize arrays
@@ -10,11 +10,11 @@
 char *create_array(unsigned int size, char c)
 {
 	char *ar;
-	unsigned int = i;
+	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
-	arr = malloc(sizeof(char) * size);
+	ar = malloc(sizeof(char) * size);
 	if (ar == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
