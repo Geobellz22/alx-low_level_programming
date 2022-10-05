@@ -14,7 +14,7 @@ void print_diagsums(int *a, int size)
 	{
 		for (j = 0; j < size; j++)
 		{
-			printf("%3",&a[i],[j]);
+			printf("%d",a[i],[j]);
 		}
 	}
 	for (i = 0; i < size; i++)
