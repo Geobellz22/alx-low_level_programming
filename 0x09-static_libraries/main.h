@@ -1,14 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include<unistd.h>
-#include<stdlib.h>
-#include<stdio.h>
-/**
- * main - main function for header file for prototypes
- * void prototype (void)
- * int prototype(int)
- */
+
 
 int _putchar(char c);
 int _islower(int c);
